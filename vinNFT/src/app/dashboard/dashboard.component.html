@@ -1,0 +1,7 @@
+<h2>Top Vins</h2>
+<div class="vins-menu">
+  <a *ngFor="let vin of vins"
+    routerLink="/detail/{{vin.id}}">
+    {{vin.name}}
+  </a>
+</div>

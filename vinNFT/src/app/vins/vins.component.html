@@ -1,0 +1,12 @@
+<h2>My Vins</h2>
+<ul class="vins">
+    <li *ngFor="let vin of vins">
+
+        <a routerLink="/detail/{{vin.id}}">
+         
+            <span class="badge">{{vin.id}}</span>  {{vin.name}} 
+         
+        </a>
+    </li>
+</ul>
+
